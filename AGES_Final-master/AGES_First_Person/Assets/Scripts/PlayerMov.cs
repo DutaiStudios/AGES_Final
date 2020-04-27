@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class PlayerMov : MonoBehaviour
@@ -11,6 +12,12 @@ public class PlayerMov : MonoBehaviour
     float sprintspeed;
     public bool canmove = true;
     public bool cansprint = false;
+    [SerializeField] AudioSource walkingsfx;
+    public bool phonecall = false;
+    public int countdown;
+    [SerializeField] CamLook playercam;
+    [SerializeField] Text phonetut;
+    public bool onphone = false;
 
     private void Start()
     {
@@ -20,15 +27,17 @@ public class PlayerMov : MonoBehaviour
     }
     void Update()
     {
+        PhonePickup();
+        countdown++;
+        PhoneRing();
         if (canmove == true)
         {
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+            float x = Input.GetAxis("Horizontal");
+            float z = Input.GetAxis("Vertical");
 
-        Vector3 move = transform.right * x + transform.forward * z;
-
-        cont.Move(move * speed * Time.deltaTime);
+            Vector3 move = transform.right * x + transform.forward * z;
+            cont.Move(move * speed * Time.deltaTime);
             sprint();
         }
 
@@ -56,4 +65,30 @@ public class PlayerMov : MonoBehaviour
         }
 
     }
+
+    void PhoneRing()
+    {
+        if (countdown >= 288)
+        {
+            phonecall = true;
+        }
+    }
+
+    void PhonePickup()
+    {
+        if (playercam.phonesight == true)
+        {
+            phonetut.text = "Press E to pick up phone";
+            if (Input.GetKeyDown("e"))
+            {
+                onphone = true;
+                phonetut.text = " ";
+            }
+        }
+        else if (playercam.phonesight == false)
+        {
+
+        }
+    }
+    
 }

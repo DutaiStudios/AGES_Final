@@ -37,7 +37,7 @@ public class CamLook : MonoBehaviour
 
         else if (canlook == false)
         {
-            Cursor.lockState = CursorLockMode.None;
+            Cursor.lockState = CursorLockMode.Confined;
         }
 
     }

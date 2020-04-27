@@ -11,21 +11,12 @@ public class PhoneScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        glow.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Phonecall();
-    }
-
-    void Phonecall()
-    {
-        if (gm.gamenum == 1)
-        {
-        glow.SetActive(true);
-        }
 
     }
+
 }

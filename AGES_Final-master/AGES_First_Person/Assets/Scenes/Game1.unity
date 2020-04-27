@@ -2985,6 +2985,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8707151021250251212, guid: 4afacbdea5156d34990aba994d52c4dc,
+        type: 3}
+      propertyPath: canmove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707151021250251212, guid: 4afacbdea5156d34990aba994d52c4dc,
+        type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707151021250251212, guid: 4afacbdea5156d34990aba994d52c4dc,
+        type: 3}
+      propertyPath: cansprint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8707151021250251203, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3055,30 +3070,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.25
       objectReference: {fileID: 0}
-    - target: {fileID: 8707151021250251212, guid: 4afacbdea5156d34990aba994d52c4dc,
+    - target: {fileID: 8707151022477681039, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
-      propertyPath: canmove
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8707151021250251212, guid: 4afacbdea5156d34990aba994d52c4dc,
-        type: 3}
-      propertyPath: speed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8707151021250251212, guid: 4afacbdea5156d34990aba994d52c4dc,
-        type: 3}
-      propertyPath: cansprint
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8707151022477681036, guid: 4afacbdea5156d34990aba994d52c4dc,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerCol
-      objectReference: {fileID: 0}
-    - target: {fileID: 8707151022477681036, guid: 4afacbdea5156d34990aba994d52c4dc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8707151022260620751, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
@@ -3090,10 +3085,15 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8707151022477681039, guid: 4afacbdea5156d34990aba994d52c4dc,
+    - target: {fileID: 8707151022477681036, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_Name
+      value: PlayerCol
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707151022477681036, guid: 4afacbdea5156d34990aba994d52c4dc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8707151022477681038, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
@@ -5666,7 +5666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1059289803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7471,8 +7471,21 @@ MonoBehaviour:
   choicefreeze: {fileID: 0}
   pmov: {fileID: 684311212}
   maincam: {fileID: 1096778335}
+  playercamera: {fileID: 0}
   textman: {fileID: 1543519424}
+  phonetext: {fileID: 0}
   ChoiceCanvas: {fileID: 0}
+  CreditsCanvas: {fileID: 0}
+  TitleScreen: {fileID: 0}
+  ScreenLook: {fileID: 0}
+  titleanim: {fileID: 0}
+  ScreenGlow: {fileID: 0}
+  phonecheck: {fileID: 0}
+  ringingphone: {fileID: 0}
+  phoneringclip: {fileID: 0}
+  PhoneCamera: {fileID: 0}
+  phoneactive: 0
+  ts: 0
   doorauth: 0
   choicealarm: 0
 --- !u!1001 &1337651481

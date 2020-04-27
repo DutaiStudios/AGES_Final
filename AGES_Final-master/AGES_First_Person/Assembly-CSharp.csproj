@@ -109,6 +109,7 @@
     <Compile Include="Assets\Scripts\PlayerMov.cs" />
     <Compile Include="Assets\Scripts\PlayerTrigger.cs" />
     <Compile Include="Assets\Scripts\TextManager.cs" />
+    <Compile Include="Assets\Scripts\TitleAnimation.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
     <None Include="Assets\PastProject pull\AssetPacks\Day-Night Skyboxes\readme.txt" />
     <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
@@ -116,6 +117,7 @@
     <None Include="Assets\PastProject pull\AssetPacks\KajamansRoads\FileNamesDescription.txt" />
     <None Include="Assets\PastProject pull\AssetPacks\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
     <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Assets MOOD WARE\_MW Skybox\Documentation\Documentation City Street Skyboxes Vol. 1.txt" />
     <None Include="Assets\PastProject pull\AssetPacks\KajamansRoads\Free\ReadMe.txt" />
     <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
     <None Include="Assets\Fonts\binary.txt" />

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - GateCheck
   - Phone
+  - Treeline
+  - LabyrinthStart
+  - Mountain
+  - CheckCol
   layers:
   - Default
   - TransparentFX

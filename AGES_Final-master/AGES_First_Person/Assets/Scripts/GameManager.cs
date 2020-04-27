@@ -11,51 +11,82 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject choicefreeze;
     [SerializeField] PlayerMov pmov;
     [SerializeField] CamLook maincam;
-
+    [SerializeField] GameObject playercamera;
     [SerializeField] TextManager textman;
-
+    [SerializeField] GameObject phonetext;
     [SerializeField] GameObject ChoiceCanvas;
     [SerializeField] GameObject CreditsCanvas;
     [SerializeField] GameObject TitleScreen;
 
-    public int gamenum = 0;
+    [SerializeField] Animation ScreenLook;
+    [SerializeField] TitleAnimation titleanim;
+    [SerializeField] GameObject ScreenGlow;
 
+    [SerializeField] PlayerMov phonecheck;
+
+    [SerializeField] AudioSource ringingphone;
+    [SerializeField] AudioClip phoneringclip;
+    [SerializeField] GameObject PhoneCamera;
+    [SerializeField] bool phoneactive = false;
+
+    public bool ts = false;
     public bool doorauth = false;
 
     public bool choicealarm = false;
 
     void Start()
     {
-        
+        ScreenGlow.SetActive(false);
+        ringingphone.Stop();
     }
 
 
     void Update()
     {
-        if (textman.choiceavailable == true)
+
+        if (ts == true)
         {
-            PlayerChoice();
+            Sceneman();
+        }
+        if (choicealarm == true)
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+        }
+        else
+        {
+
         }
 
-
+        RingingPhone();
+        Call1();
     }
 
     void PlayerChoice()
     {
         pmov.canmove = false;
         maincam.canlook = false;
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
         
     }
     
+    void Sceneman()
+  {
+        if (titleanim.collcheck == true)
+     {
+         SceneManager.LoadScene("Apartment1");
+     }
+  }
     public void GameEnter()
     {
-        SceneManager.LoadScene("Apartment1");
+        CreditsCanvas.SetActive(false);
+        TitleScreen.SetActive(false);
+        ScreenGlow.SetActive(true);
+        ScreenLook.Play();
     }
 
     public void GameExit()
     {
-        SceneManager.LoadScene(0);
+        Application.Quit();
     }
 
     public void Credits()
@@ -68,5 +99,40 @@ public class GameManager : MonoBehaviour
     {
         CreditsCanvas.SetActive(false);
         TitleScreen.SetActive(true);
+    }
+
+    void RingingPhone()
+    {
+        if (phonecheck.phonecall == true)
+        {
+            if (phoneactive == false)
+            {
+                ringingphone.Play();
+                phoneactive = true;
+                ScreenGlow.SetActive(true);
+            }
+
+        }
+    }
+
+    void Call1()
+    {
+        if (pmov.onphone == true)
+        {
+            choicealarm = true;
+        }
+
+        if (choicealarm == true)
+        {
+            ringingphone.Stop();
+            pmov.canmove = false;
+            phonetext.SetActive(false);
+            maincam.canlook = false;
+            ScreenGlow.SetActive(false);
+            playercamera.SetActive(false);
+            PhoneCamera.SetActive(true);
+            choicefreeze.SetActive(true);
+            Cursor.lockState = CursorLockMode.Confined;
+        }
     }
 }
