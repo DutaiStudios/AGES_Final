@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 679, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
+  m_MinSize: {x: 683, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 77
+  controlID: 112
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1098
     height: 771
-  m_MinSize: {x: 404, y: 494}
+  m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 106
+  controlID: 32
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1098
     height: 494
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 107
+  controlID: 33
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,8 +266,8 @@ MonoBehaviour:
     y: 0
     width: 438
     height: 771
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -449,7 +449,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 56d3ffff3ee0ffff6cf0ffffbef0ffff14f1ffff7af6ffff68faffff88fbffff64380000
+      m_ExpandedIDs: b4b7ffffbeb7ffffc6b7ffffcab7ffffdab7ffff96b8ffffcebeffff0af5ffff82faffff54fbffff8a500000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -509,9 +509,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 523.7653, y: 290.97986, z: -268.94473}
+    m_Target: {x: -312.12482, y: 14.6372595, z: 44.897762}
     speed: 2
-    m_Value: {x: 523.7653, y: 290.97986, z: -268.94473}
+    m_Value: {x: -312.12482, y: 14.6372595, z: 44.897762}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -540,13 +540,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.154139, y: 0.107583836, z: -0.017348308, w: 0.9821648}
+    m_Target: {x: 0.047069486, y: -0.95335877, z: 0.22142471, w: 0.20036535}
     speed: 2
-    m_Value: {x: 0.15271986, y: 0.10317336, z: -0.016497336, w: 0.9827308}
+    m_Value: {x: 0.047062814, y: -0.95322365, z: 0.22139333, w: 0.20033695}
   m_Size:
-    m_Target: 533.42914
+    m_Target: 2271.7302
     speed: 2
-    m_Value: 510.45853
+    m_Value: 2173.9045
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -635,20 +635,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/PastProject pull/AssetPacks/Cartoon SportCar B01/Prefab_Car-Toon
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/PastProject pull/AssetPacks/Cartoon SportCar B01/Prefab_Car-Toon
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\Classwork\AGES\GitHub\AGES_Final\AGES_First_Person
+  m_LastProjectPath: G:\Classwork\AGES\GitHub\AGES_Final\AGES_Final-master\AGES_First_Person
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 66}
-    m_SelectedIDs: 20320000
-    m_LastClickedID: 12832
-    m_ExpandedIDs: 00000000ae2d0000bc2d00006c2e0000922f0000ce2f00000a32000040320000823200003e3400004e3500005836000000ca9a3b
+    scrollPos: {x: 0, y: 110}
+    m_SelectedIDs: 50410000
+    m_LastClickedID: 16720
+    m_ExpandedIDs: 00000000282e0000382e0000062f0000583000009c3000001633000050330000fa330000023600003237000068380000044100003241000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -676,7 +676,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae2d0000bc2d0000922f0000ce2f0000e83100000a320000823200003e3400004e35000058360000
+    m_ExpandedIDs: 00000000282e0000382e0000062f0000583000009c3000001633000050330000fa330000023600003237000068380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

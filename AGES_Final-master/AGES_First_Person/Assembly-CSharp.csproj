@@ -63,6 +63,44 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\script\brake_light.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\script\on_off_light.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\script\OpenElement.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\AutoCam.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CameraSwitch.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\FreeLookCam.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\PostEffectsBase.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\SkidTrail.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\script\WheelEffects.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\CamMouseLook.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\CarCam.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\CarDest.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\CarMove.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\IntroSeg.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\Music.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\PastProject pull\Scripts\Rules.cs" />
     <Compile Include="Assets\Scripts\CamBob.cs" />
     <Compile Include="Assets\Scripts\CamLook.cs" />
     <Compile Include="Assets\Scripts\DoorProxy.cs" />
@@ -72,42 +110,51 @@
     <Compile Include="Assets\Scripts\PlayerTrigger.cs" />
     <Compile Include="Assets\Scripts\TextManager.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
+    <None Include="Assets\PastProject pull\AssetPacks\Day-Night Skyboxes\readme.txt" />
+    <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
+    <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldDX11.shader" />
+    <None Include="Assets\PastProject pull\AssetPacks\KajamansRoads\FileNamesDescription.txt" />
+    <None Include="Assets\PastProject pull\AssetPacks\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
+    <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
+    <None Include="Assets\PastProject pull\AssetPacks\KajamansRoads\Free\ReadMe.txt" />
+    <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
     <None Include="Assets\Fonts\binary.txt" />
+    <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -293,13 +340,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
